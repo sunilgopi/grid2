@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(8,1fr);
+  grid-gap: 5px;
+  padding: 5px;
+
+}
+
+.grid-item {
+  background-color: yellow;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  
+}
+.one 
+{
+    grid-column: 1/13;
+    grid-row: 1/5;
+}
+.two
+{
+    grid-column: 1/4;
+    grid-row: 5/9;
+}
+.three
+{
+    grid-column: 4/7;
+}
+.four
+{
+    grid-column: 7/10;
+    grid-row: 5/7;
+}
+.five
+{
+    grid-column: 10/13;
+    grid-row: 5/8;
+}
+.six
+{
+    grid-column: 4/7;
+    grid-row:6/9;
+   
+}
+.seven
+{
+    grid-column: 7/10;
+}
+.eight
+{
+    grid-column: 7/10;
+}
+.nine 
+{
+    grid-column: 10/13;
+}
+
+</style>
+</head>
+<body>
+
+<h2>Grid Layout</h2>
+
+<div class="grid-container">
+  <div class="grid-item one">1</div>
+  <div class="grid-item two" >2</div>
+  <div class="grid-item three">3</div>
+  <div class="grid-item four">4</div>
+  <div class="grid-item five">5</div>
+  <div class="grid-item six">6</div>
+  <div class="grid-item seven">7</div>
+  <div class="grid-item eight">8</div>
+  <div class="grid-item nine">9</div>
+  
+  </div>
